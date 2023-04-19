@@ -25,14 +25,14 @@
 }
 
 .bg-image {
-    background-image: url(../Images/image_2023-03-06_10-40-32.png);
+    background-image: url(../images/image_2023-03-06_10-40-32.png);
     background-size: cover;
     background-position: center;
     height: 50vh;
 }
 
 .bg-image-display{
-    background-image: url(../Images/mythrill_legacy_preview.png);
+    background-image: url(../images/mythrill_legacy_preview.png);
     background-size: cover;
     background-position: center;
     height: 80vh;
