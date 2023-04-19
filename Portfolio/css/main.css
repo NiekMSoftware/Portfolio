@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@media screen and (max-width: 500px) {
+    .resonsive{
+        padding : 0px 20px;
+        background-color: purple;
+    }
+}
+
+.img-fluid{
+    width: 100%;
+    height: auto;
+}
+
+.body-fluid{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(rgb(224,151,148),rgb(226,148,100), rgb(213,155,131), rgb(79,186,187));
+    height: auto; 
+}
+
+.project-body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(rgb(224,151,148),rgb(226,148,100), rgb(213,155,131), rgb(79,186,187));
+    height: auto;
+}
+
+.bg-image {
+    background-image: url(../Images/image_2023-03-06_10-40-32.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+}
+
+.bg-image-display{
+    background-image: url(../Images/mythrill_legacy_preview.png);
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+}
+
+@keyframes fadeIn{
+    0% { opacity: 0;}
+    100% { opacity: 1;}
+}
+
+@keyframes fadeOut{
+    0% { opacity: 1;}
+    50% { opacity: 0.5;}
+    100% { opacity: 0;}
+}
+
+.hide{
+    display: none;
+    transition: opacity 1s ease-out;
+}
+
+.show{
+    animation: fadeIn 1s;
+}
+
+.formHeading{
+    padding-top: 10%;
+}
+
+.card-fluid{
+    width: auto;
+    height: 100%;
+}
+
+.container{
+    padding-bottom: 10%;
+}
+
+.formHeading{
+    padding-bottom: 20%;
+}
+
+.bg-heading{
+    background-color: transparent;
+}
+
+.card{
+    margin-top: 10px;
+    background-color: transparent;
+}
+
+.flex-layout{
+    padding-bottom: 5%;
+}
+
+.card-footer{
+    background-image: transparent;
+}
+
+.button{
+    padding-top: 5%;
+}
+
+.more-projects{
+    padding-top: 1%;
+}
+
+.text-display-screen{
+    backdrop-filter: blur(2px);
+}
+
+.floatButton{
+    position: fixed;
+    right: 10px;
+    bottom: 50px;
+}
+
+.btn-floating{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
